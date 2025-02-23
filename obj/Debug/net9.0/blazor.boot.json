@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazorStudents",
   "resources": {
-    "hash": "sha256-oXLnVYSuNN56jt1FzMH23+mYBSDOm7yV8ZtcEEydSAs=",
+    "hash": "sha256-AkGuwK1q9b7T8SF5uY9dl4j8pwmjT8Wxbq9q6Vfs7b8=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.n41ua9ceve.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.h4ild4sjod.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -202,10 +202,10 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "StudentLibrary.us80lnlgzx.wasm": "StudentLibrary.wasm",
-      "StudentLibrary.iq5kzsvt3x.pdb": "StudentLibrary.pdb",
-      "BlazorStudents.hfhtg8cw18.wasm": "BlazorStudents.wasm",
-      "BlazorStudents.q8o4vsbrrx.pdb": "BlazorStudents.pdb"
+      "StudentLibrary.wnk9qk6hzl.wasm": "StudentLibrary.wasm",
+      "StudentLibrary.mo3fdu5lzu.pdb": "StudentLibrary.pdb",
+      "BlazorStudents.s687yipuw7.wasm": "BlazorStudents.wasm",
+      "BlazorStudents.vsl79gxy9d.pdb": "BlazorStudents.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.hmanx9razn.js": "sha256-d7UNSArplVrX3arY2Kmhxp1wN79ng8hLqIBrkiQ9Gbo="
@@ -416,12 +416,12 @@
       "WindowsBase.377bly7twj.wasm": "sha256-0VmBdMjdc0nZGHDSfaGirT6y3mJTM0qx8eqCUC/rpiE=",
       "mscorlib.o0184ey5ia.wasm": "sha256-2GxNKZQJVJvYMUxSTuXa5V2qxawSMMHZtwG33SKVCZU=",
       "netstandard.hb3h2rr8mk.wasm": "sha256-DWn9+RH/ElZQ6imlYqVwZvir1KTzNwY18AzGmnyiymU=",
-      "StudentLibrary.us80lnlgzx.wasm": "sha256-cpLZZmLJRbjibzJDBcWn2HO5j2GzqdnjTY1BKNkYM4o=",
-      "BlazorStudents.hfhtg8cw18.wasm": "sha256-fe0BgnYsi6RqjyKpv/YzdLpKWD+3ELiMTOvRFFDX2L0="
+      "StudentLibrary.wnk9qk6hzl.wasm": "sha256-JGVWm9Jsr9S//7hYpzNLmdnm4akb+5asYhpDEkCf4Z0=",
+      "BlazorStudents.s687yipuw7.wasm": "sha256-zOADBIdmkimG722sKHVS26IJ0YPuau7YQKs6PpTbrVc="
     },
     "pdb": {
-      "StudentLibrary.iq5kzsvt3x.pdb": "sha256-9oK/3GL8jniuaYIb9i6xPp6NC4vbtV8WKzz/CD2yLsg=",
-      "BlazorStudents.q8o4vsbrrx.pdb": "sha256-Rs0i+l/OcFPJFxDtevWTmP1WwZLEisX8qKl4V1igzoE="
+      "StudentLibrary.mo3fdu5lzu.pdb": "sha256-mkqXn6EN+5vuVVPze8I727Oxkjb1CFwk3VFMQGiNSG4=",
+      "BlazorStudents.vsl79gxy9d.pdb": "sha256-H+PIjvNofq1Ivfrr53YLVYmEu86cHJ5ZBGi9NXs8VuE="
     }
   },
   "cacheBootResources": true,
