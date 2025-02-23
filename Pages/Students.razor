@@ -1,0 +1,43 @@
+﻿@page "/students"
+@inject HttpClient Http
+
+<PageTitle>Students</PageTitle>
+
+<h1>Students</h1>
+
+@if (students == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <Paginator Value="@pagination" />
+    <QuickGrid Items="@studentsAsQueryable" Pagination="@pagination">
+        <PropertyColumn Property="@(_ => _.StudentId)" Title="ID" Sortable="true" />
+        <TemplateColumn Title="Name" SortBy="@sortByName">
+            <div class="flex items-center">
+                <nobr>
+                    <strong>@context.FirstName @context.LastName</strong>
+                </nobr>
+            </div>
+        </TemplateColumn>
+        <PropertyColumn Property="@(_ => _.School)" Title="School" Sortable="true" />
+    </QuickGrid>
+
+
+}
+
+@code {
+    GridSort<Student> sortByName = GridSort<Student>
+        .ByAscending(_ => _.FirstName).ThenAscending(_ => _.LastName);
+    
+    private Student[]? students;
+    private PaginationState pagination = new PaginationState { ItemsPerPage = 10 };
+
+    private IQueryable<Student> studentsAsQueryable => students?.AsQueryable() ?? Enumerable.Empty<Student>().AsQueryable();
+
+    protected override async Task OnInitializedAsync()
+    {
+        students = await Http.GetFromJsonAsync<Student[]>("https://studentfunctionmze.azurewebsites.net/api/students");
+    }
+}
